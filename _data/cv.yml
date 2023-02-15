@@ -29,21 +29,21 @@
       institution: Knights Lab, University of Minnesota - Twin Cities
       year: 2020 - Present
       description:
-        - Leading microbiome analysis for 3,400 sequenced samples from the human infant gut (M.A.G.I.C. study).
-        - Developed a novel technique to diagnose and correct the "arch" and "horseshoe" effect in PCA/PCoA.
+        - Leading microbiome analysis for 3,400 sequenced human infant gut samples.
+        - Novel method to diagnose and correct the "horseshoe" effect in PCA/PCoA.
 
     - title: Data Scientist / Researcher 2
       institution: Knights Lab, University of Minnesota - Twin Cities
       year: 2018 - 2020
       description:
-        - Coordinated preparation of infant gut samples in collaboration with the Children's Hospital of Philadelphia (CHOP) for the M.A.G.I.C. study.
-        - Supported 4 postdoc-lead research projects with microbiome statistical analysis and visualizations, using R and python.
+        - Coordinated preparation of 6,000 infant gut samples in collaboration CHOP.
+        - Used R and python for microbiome analysis/visualization on various projects.
 
     - title: Fulbright Student
       institution: Johannes Kepler Universität, Linz, Austria
       year: 2017-2018
       description:
-        - Assisted in data visualization research for provenance tracking, advised by Dr. Marc Streit, taought English in a local secondary school, and took bioinformatics courses at JKU.
+        - Data visualization research with Dr. Marc Streit, taught English in a secondary school.
 
     - title: Data Science Intern
       institution: CoreBiome (now Diversigen)
@@ -52,32 +52,34 @@
 - title: Volunteer Positions
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: 
+    - title: Board Member
+      institution: Fulbright Association of Minnesota
+      year: 2019 - 2022
+      description: Organizing events for Fulbright alumni and international students/scholars.
+    - title: Director of Finance
+      institution: Council of Graduate Students, UMN
+      year: 2020 - 2021
+      description: Budgeting funds for grants and events for UMN graduate students.
+    - title: President
+      institution: Habitat for Humanity St. Olaf College
+      year: 2015 - 2017
+    - title: Captain
+      institution: Women's Cross Country and Track & Field teams, St. Olaf College
+      year: 2015 - 2017
 
 - title: Awards and Grants
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - Honorable Mention, NSF Graduate Research Fellowship Program
+    - year: 2017
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Fulbright Combined Award, Fulbright Association
+        - MIAC Sportsmanship Award, Minnesota Intercollegiate Athletic Conference
+    - year: 2016
       items:
-        - Description 1.
-        - Description 2.
+        - Program Director of the Year, St. Olaf College LEadership Awards
 
 - title: Other Interests
   type: list
