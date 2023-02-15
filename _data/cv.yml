@@ -29,21 +29,21 @@
       institution: Knights Lab, University of Minnesota - Twin Cities
       year: 2020 - Present
       description:
-        - Leading microbiome analysis for 3,400 sequenced human infant gut samples.
+        - Leading microbiome analysis for 3,400 sequenced infant gut samples.
         - Novel method to diagnose and correct the "horseshoe" effect in PCA/PCoA.
 
     - title: Data Scientist / Researcher 2
       institution: Knights Lab, University of Minnesota - Twin Cities
       year: 2018 - 2020
       description:
-        - Coordinated preparation of 6,000 infant gut samples in collaboration CHOP.
-        - Used R and python for microbiome analysis/visualization on various projects.
+        - Coordinated preparation of 6,000 infant gut samples (M.A.G.I.C. study).
+        - Used R and python conducting analysis/visualization for various projects.
 
     - title: Fulbright Student
       institution: Johannes Kepler Universität, Linz, Austria
       year: 2017-2018
       description:
-        - Data visualization research with Dr. Marc Streit
+        - Data visualization research with Professor Marc Streit, PhD.
         - Taught English in a secondary school.
 
     - title: Data Science Intern
@@ -87,4 +87,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> running, biking, houseplant parenthood, the endless endeavor for the perfect cup of coffee.
+    - <u>Hobbies:</u> running, biking, houseplant parenthood, & the endless search for the perfect cup of coffee.
