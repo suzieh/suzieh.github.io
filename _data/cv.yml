@@ -9,17 +9,18 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D.
+    - title: Ph.D. Computer Science
+      institution: University of Minnesota - Twin Cities
+      year: Present
+      description: Advised by Associate Professor Dan Knights, PhD. (GPA 4.0)
+    - title: M.S. Computer Science
       institution: University of Minnesota - Twin Cities
       year: 2023
-      description:
-        - Advised by Dan Knights
-    - title: M.S.
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      description: Advised by Associate Professor Dan Knights, PhD. (GPA 4.0)
+    - title: B.A. Mathematics
+      institution: St. Olaf College
+      year: 2017
+      description: (GPA 3.57)
 
 - title: Experience
   type: time_table
