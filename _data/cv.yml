@@ -43,11 +43,14 @@
       institution: Johannes Kepler Universität, Linz, Austria
       year: 2017-2018
       description:
-        - Data visualization research with Dr. Marc Streit, taught English in a secondary school.
+        - Data visualization research with Dr. Marc Streit
+        - Taught English in a secondary school.
 
     - title: Data Science Intern
       institution: CoreBiome (now Diversigen)
       year: 2017
+      description:
+        - Microbiome analysis on AWS EC2 computing cloud with S3 storage.
 
 - title: Volunteer Positions
   type: time_table
