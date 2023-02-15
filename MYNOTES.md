@@ -10,3 +10,6 @@ Pages I might add: projects (see default page provided)
 
 # WHERE TO FIND OLD PAGES
 Moved any pages or files I want to keep optionally to /_ogkeepme/
+
+# EDITTING COLORS
+Change which colors are used in the _themes.scss file, and change colors themselves within _variables.scss

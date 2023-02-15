@@ -2,26 +2,19 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Susan (Suzie) L. Hoops
     - name: Languages
-      value: English, German
+      value: English, German (conversational), American Sign Language (beginner)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D.
+      institution: University of Minnesota - Twin Cities
+      year: 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
+        - Advised by Dan Knights
+    - title: M.S.
       institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
       year: 1900
       description:
