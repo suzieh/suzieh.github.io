@@ -20,16 +20,16 @@
     - title: B.A. Mathematics
       institution: St. Olaf College
       year: 2017
-      description: (GPA 3.57)
+      description: Advised by Professor Matthew Richey, PhD. (GPA 3.57)
 
-- title: Research Experience
+- title: Work | Research Experience
   type: time_table
   contents:
     - title: Graduate Research Assistant
       institution: Knights Lab, University of Minnesota - Twin Cities
       year: 2020 - Present
       description:
-        - Leading microbiome analysis for 3,400 sequenced infant gut samples.
+        - Leading microbiome analysis for six human microbiome studies.
         - Novel method to diagnose and correct the "horseshoe" effect in PCA/PCoA.
 
     - title: Data Scientist / Researcher 2

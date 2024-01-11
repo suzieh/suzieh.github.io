@@ -7,6 +7,16 @@ nav: true
 nav_order: 2
 ---
 
+## 2023
+- ***LMdist: Local Manifold distance accurately measures beta diversity in ecological gradients.***
+    Suzie Hoops. ***Seminar Speaker.*** BioFilm Club, University of Minnesota Twin Cities. Minneapolis, MN. Oct 27 2023.
+
+- ***LMdist: uncovering gradients in beta diversity.***
+    Suzie Hoops. ***Guest Lecture.*** MICE 5035, University of Minnesota Twin Cities. Minneapolis, MN. Sep 20 2023.
+
+- ***Identifying patterns and addressing pitfalls in beta diversity analyses.***
+    Suzie Hoops and Dan Knights. ***Abstract Talk.*** [Great Lakes Bioinformatics](https://www.iscb.org/glbio2023) (GLBIO) Conference 2023. Montreal, Canada. May 16 2023.
+
 ## 2022
 - ***Microbiome beta diversity measures, visuals, and anomalies.***
     Suzie Hoops. ***Guest Lecture.*** MICE 5035, University of Minnesota Twin Cities. Minneapolis, MN. Oct 19 2022.
@@ -17,7 +27,7 @@ nav_order: 2
 
 ## 2021
 - ***Recovering hidden gradients in microbiome diversity analyses.***
-    Suzie Hoops and Dan Knights. ***Abstract Talk.*** Microbiome Panel, [Great Lakes Bioinformatics Conference 2021](https://www.iscb.org/glbio2021). Virtual. May 12 2021.
+    Suzie Hoops and Dan Knights. ***Abstract Talk.*** Microbiome Panel, [Great Lakes Bioinformatics (GLBIO) Conference 2021](https://www.iscb.org/glbio2021). Virtual. May 12 2021.
 
 
 ## 2020
