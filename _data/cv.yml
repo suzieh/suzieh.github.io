@@ -73,6 +73,9 @@
 - title: Awards and Grants
   type: time_table
   contents:
+    - year: 2023
+      items: 
+        - Recipient, NSF Travel Fellowship
     - year: 2021
       items: 
         - Honorable Mention, NSF Graduate Research Fellowship Program
