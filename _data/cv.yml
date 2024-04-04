@@ -29,15 +29,16 @@
       institution: Knights Lab, University of Minnesota - Twin Cities
       year: 2020 - Present
       description:
-        - Leading microbiome analysis for six human microbiome studies.
-        - Novel method to diagnose and correct the "horseshoe" effect in PCA/PCoA.
+        - Leading microbiome analysis for 7 human and animal microbiome studies.
+        - Novel diagnosis and correction method for the "horseshoe" effect in dimensionality reduction.
+        - Software pipeline for tracking engraftment in WGS studies.
 
     - title: Data Scientist / Researcher 2
       institution: Knights Lab, University of Minnesota - Twin Cities
       year: 2018 - 2020
       description:
         - Coordinated preparation of 6,000 infant gut samples (M.A.G.I.C. study).
-        - Used R and python conducting analysis/visualization for various projects.
+        - Used R and Python conducting analysis/visualization for various projects.
 
     - title: Fulbright Student
       institution: Johannes Kepler Universität, Linz, Austria
@@ -45,12 +46,14 @@
       description:
         - Data visualization research with Professor Marc Streit, PhD.
         - Taught English in a secondary school.
+        - Completed coursework for the Technical Mathematics M.S. degree.
 
     - title: Data Science Intern
       institution: CoreBiome (now Diversigen)
       year: 2017
       description:
         - Microbiome analysis on AWS EC2 computing cloud with S3 storage.
+        - Web design for the original CoreBiome website.
 
 - title: Volunteer Positions
   type: time_table
