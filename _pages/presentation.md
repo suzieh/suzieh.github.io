@@ -9,7 +9,7 @@ nav_order: 2
 
 ## 2023
 - ***LMdist: Local Manifold distance accurately measures beta diversity in ecological gradients.***
-    Suzie Hoops. ***Seminar Speaker.***BioFilm Club, University of Minnesota Twin Cities. Minneapolis, MN. Oct 27 2023.
+    Suzie Hoops. ***Seminar Speaker.*** BioFilm Club, University of Minnesota Twin Cities. Minneapolis, MN. Oct 27 2023.
 
 - ***LMdist: uncovering gradients in beta diversity.***
     Suzie Hoops. ***Guest Lecture.*** MICE 5035, University of Minnesota Twin Cities. Minneapolis, MN. Sep 20 2023.
