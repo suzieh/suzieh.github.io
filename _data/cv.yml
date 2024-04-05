@@ -5,9 +5,9 @@
       value: Susan (Suzie) L. Hoops
     - name: Languages
       value: English (fluent), German (conversational), American Sign Language (beginner)
-    - name: Programming Languages
+    - name: Programming
       value: Python, R, SQL, C++, MATLAB, LaTeX, D3.js, HTML/CSS
-    - name: Data Handling Skills
+    - name: Data Handling
       value: AWS storage (S3), AWS computing (EC2), Relational databases (RedCAP), HPC cluster computing
     - name: Data Analysis
       value: Hypothesis testing, Machine Learning, Bayesian statistics, Deep Learning (PyTorch, TensorFlow)
