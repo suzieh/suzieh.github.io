@@ -5,6 +5,7 @@ description: (Python) Passion project for finding walkable cities in urban MN.
 img: assets/img/walkableCity.png
 importance: 2
 category: Seen on GitHub
+github: https://github.com/suzieh/myWalkableCity
 ---
 
 In this personal passion project, I use publicly-available spatial data on bike paths, public buildings, and parks (obtained from the <a href="https://gisdata.mn.gov/">MN Geospatial Commons</a>) to explore walkable, bikeable locations in the Greater Twin Cities!
