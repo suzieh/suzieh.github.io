@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: LMdist
+description: (R) Removing the arch effect in dimensionality reduction.
 img: assets/img/hoops_lmdist_2023.gif
 importance: 1
 category: Seen on GitHub

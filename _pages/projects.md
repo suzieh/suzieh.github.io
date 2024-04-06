@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A collection of current and recent projects.
+description: A sample of current and recent projects.
 nav: true
 nav_order: 1
 display_categories: [Seen on GitHub]

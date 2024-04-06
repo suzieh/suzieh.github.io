@@ -1,80 +1,68 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: myWalkableCity
+description: (Python) Passion project for finding walkable cities in urban MN.
+img: assets/img/walkableCity.png
 importance: 2
 category: Seen on GitHub
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In this personal passion project, I use publicly-available spatial data on bike paths, public buildings, and parks (obtained from the <a href="https://gisdata.mn.gov/">MN Geospatial Commons</a>) to explore walkable, bikeable locations in the Greater Twin Cities!
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The idea for this project was born from house-hunting in the Twin Cities. While considering locations, I wanted to know where I would have easy access to bike paths, parks, groceries, and medical facilities. The concept of the "15-minute city" is a popular discussion on city planning; attempting to plan such that all people live "15-minutes" walking or biking to their basic necessities.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+With that, I introduce <a href="https://github.com/suzieh/myWalkableCity">myWalkableCity</a>! A Dash application (implemented in Python and <a href="https://mywalkablecity.onrender.com/">hosted on Render</a>) which attempts to visualize the overlap of various necessities in the Twin Cities, MN.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+___
+
+
+## myWalkableCity
+
+
+First, I had a series of geometries from MN Geospatial Commons representing parks and buildings (bolded colors below). I wanted to create "buffers" which represent the walkable distance from these paths, parks, and buildings (lighter colored areas).
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/example_buffers.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
+</div>
+<div class="caption">
+    Buffers for Mill City Ruins Park, Guthrie Theater, West River Road Path, and Stone Arch Bridge. Buffers for paths (West River Road and Stone Arch) are 800 meters in radius, so extend 800 meters from the path. Buffers for buildings (Guthrie Theater) and parks (Mill City Ruins) are 1000 meters in radius, extending 1000 meters from the outer most edges of these parks and buildings. 
+</div>
+
+
+Next we can visualize all these geometries as one on the Twin Cities area. Great! But... this is a bit overwhelming and not very interactive! Also, the plot can be slow to render with so many overlapping geometries.
+
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    All buffers in the Twin Cities.
 </div>
 
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+A solution : (1) Combine overlapping buffers of the same type (i.e. same type of path connected to one another). (2) Create an interactive Dash application to pick and choose important features.
 
-{% raw %}
-```html
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/example_buffers.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-```
-{% endraw %}
+<div class="caption">
+    Buffers for Mill City Ruins Park, Guthrie Theater, West River Road Path, and Stone Arch Bridge. Buffers for paths (West River Road and Stone Arch) are 800 meters in radius, so extend 800 meters from the path. Buffers for buildings (Guthrie Theater) and parks (Mill City Ruins) are 1000 meters in radius, extending 1000 meters from the outer most edges of these parks and buildings. 
+</div>
+
+And, ta-da! We have an interactive tool for finding "walkable cities."
+
+___
+
+
+## Future Directions
+
+There are many improvements that could be made. First, hosting on a faster platform than the free version of Render would improve usability. Second, the plotly map could be made more interesting by introducing "hover" information that would tell you what the park name, path name, or building name is in a particular region. Would be wonderful to give some more detailed context in the visualization.
+
