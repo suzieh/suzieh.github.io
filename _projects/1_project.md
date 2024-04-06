@@ -24,8 +24,8 @@ I found that the arch and horseshoe appear when a *gradient* of some sort is bei
 
 Consider for example this soil dataset, where each dot represents a soil sample taken at a different pH level. The arch is clearly evident, making samples at the ends of the pH gradient appear closer together in the plot, rather than a linear relationship we would expect!
 
-<div class="row justify-content-start">
-    <div class="col-4">
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/hoops_lmdist_2023_before.png" title="Soil PCoA before correction" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -38,7 +38,7 @@ This got me thinking - what if the reason the arch appears with gradients is bec
 We can use graph theory and machine learning to adjust distances according to local relationships. This will keep short distances the same while making longer distances more accurate for samples at opposite ends of the gradient.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col">
         {% include figure.html path="assets/img/hoops_lmdist_2023_algorithm.png" title="Soil PCoA before correction" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
