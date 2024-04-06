@@ -25,7 +25,7 @@ First, I had a series of geometries from MN Geospatial Commons representing park
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-5">
+    <div class="col-7">
         {% include figure.html path="assets/img/example_buffers.png" title="example buffers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

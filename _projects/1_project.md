@@ -20,7 +20,7 @@ Let's start with the problem: **what is the arch/horseshoe effect?**
 
 When conducting dimensionality reduction on big, multivariate datasets, it is common to see the data points form an arch-like formation. It was debated where this was coming from, but most researchers tended to ignore the effect as some "anomaly."
 
-I found that the arch and horseshoe appear when a *gradient* of some sort is being sampled. So, if the data points are collected along some scale like temperature, age, pH, or even time. If the ends of the scale are very different from one another, then the arch would appear.
+I found that **the arch and horseshoe appear when a gradient is being sampled**. So, if the data points are collected along some gradient like temperature, age, pH, or even time. If the ends of the scale are very different from one another, then the arch would appear.
 
 Consider for example this soil dataset, where each dot represents a soil sample taken at a different pH level. The arch is clearly evident, making samples at the ends of the pH gradient appear closer together in the plot, rather than a linear relationship we would expect!
 
@@ -35,7 +35,7 @@ Consider for example this soil dataset, where each dot represents a soil sample 
 
 This got me thinking - what if the reason the arch appears with gradients is because the ends of the gradient don't have much in common? This would affect the pairwise distance measures we use underlying the visualization!
 
-We can use graph theory and machine learning to adjust distances according to local relationships. This will keep short distances the same while making longer distances more accurate for samples at opposite ends of the gradient.
+We can **use graph theory and machine learning** to **adjust distances according to local relationships**. This will keep short distances the same while making longer distances more accurate for samples at opposite ends of the gradient.
 
 <div class="row justify-content-sm-center">
     <div class="col">
@@ -43,11 +43,11 @@ We can use graph theory and machine learning to adjust distances according to lo
     </div>
 </div>
 <div class="caption">
-    A visual representation of the LMdist algorithm. (A) PCoA plot with an arch/horseshoe shape. (B) 
+    A visual representation of the LMdist algorithm. (A) PCoA plot with an arch/horseshoe shape. (B) Given a radius, (C) we connect any other samples within that radius to the sample. (D) We connect neighbors for all samples until we have a fully connected graph. (E) We can recalculate distances by traversing these paths, thereby extending long ditances. (F) Using these adjusted distances as input for dimensionality reduction, we can resolve the linear gradient!
 </div>
 
 
-Applying the LMdist algorithm, we can resolve the pH gradient along the x-axis! This is exciting on its own, but we also find that other variation between the soil samples is now shown in the y-axis direction - meaning we have enabled the discovery of new findings!
+Applying the LMdist algorithm, we can **resolve the pH gradient along the x-axis**! This is exciting on its own, but we also find that other variation between the soil samples is now shown in the y-axis direction - meaning we have enabled the **discovery of new findings**!
 
 
 <div class="row">
