@@ -25,14 +25,8 @@ First, I had a series of geometries from MN Geospatial Commons representing park
 
 
 <div class="row justify-content-sm-center">
-    <div class="col col-lg-2">
-      *
-    </div>
-    <div class="col-md-auto">
+    <div class="col-4">
         {% include figure.html path="assets/img/example_buffers.png" title="example buffers" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col col-lg-2">
-      *
     </div>
 </div>
 <div class="caption">
@@ -44,7 +38,7 @@ Next we can visualize all these geometries as one on the Twin Cities area. Great
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-md-auto">
+    <div class="col-4">
         {% include figure.html path="assets/img/all_geometries_tc.png" title="All geometries in Twin Cities" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
