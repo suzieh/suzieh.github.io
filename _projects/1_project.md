@@ -1,6 +1,6 @@
 ---
 layout: page
-title: LMdist
+title: Local Manifold Distance
 description: (R) Removing the arch effect in dimensionality reduction.
 img: assets/img/hoops_lmdist_2023.gif
 importance: 1
@@ -24,14 +24,15 @@ I found that the arch and horseshoe appear when a *gradient* of some sort is bei
 
 Consider for example this soil dataset, where each dot represents a soil sample taken at a different pH level. The arch is clearly evident, making samples at the ends of the pH gradient appear closer together in the plot, rather than a linear relationship we would expect!
 
-<div class="row">
+<div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/publication_preview/hoops_lmdist_2023_before.png" title="Soil PCoA before correction" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/hoops_lmdist_2023_before.png" title="Soil PCoA before correction" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    On the left, we visualize the relationship between soil microbiome samples with varying pH levels. The plot clearly demonstrates an arched shape, not quite the linear pH relationship we would expect. Middle, the pairwise distances are adjusted to better reflect the gradient, since low pH and high pH samples have very few microbes in common. The arch is no longer present, and other sources of variation are now visible in the 2nd dimension (y-axis).
+    PCoA plot of Soil microbiome samples with varying pH levels. The closer sample points appear to one another, the more similar their microbiome content. The plot clearly demonstrates an arched shape, not quite the linear pH relationship we would expect.
 </div>
+
 
 
 citation: 

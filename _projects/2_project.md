@@ -1,6 +1,6 @@
 ---
 layout: page
-title: myWalkableCity
+title: my Walkable City
 description: (Python) Passion project for finding walkable cities in urban MN.
 img: assets/img/walkableCity.png
 importance: 2
