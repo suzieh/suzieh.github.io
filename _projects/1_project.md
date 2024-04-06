@@ -7,17 +7,19 @@ importance: 1
 category: Seen on GitHub
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This work has been published with *Bioinformatics*, read the <a href="https://doi.org/10.1093/bioinformatics/btad727">full article here</a>.
 
+___
+
+## Local Manifold Distance (LMdist) removes the arch effect in dimensionality reduction
+
+Here we give a brief introduction to LMdist, an algorithm for adjusting pairwise distances in dimensionality reduction in order to remove the "arch effect."
+
+Let's start with the problem: **what is the arch/horseshoe effect?**
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/publication_preview/hoops_lmdist_2023_after.png" title="Soil PCoA before correction" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/publication_preview/hoops_lmdist_2023_after.png" title="Soil PCoA after correction" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -25,6 +27,4 @@ Make your photos 1/3, 2/3, or full width.
 </div>
 
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+citation: 

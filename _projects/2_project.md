@@ -38,7 +38,7 @@ Next we can visualize all these geometries as one on the Twin Cities area. Great
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/all_geometries_tc.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -50,7 +50,7 @@ A solution : (1) Combine overlapping buffers of the same type (i.e. same type of
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/example_buffers.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/dashboard_preview.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -64,5 +64,9 @@ ___
 
 ## Future Directions
 
-There are many improvements that could be made. First, hosting on a faster platform than the free version of Render would improve usability. Second, the plotly map could be made more interesting by introducing "hover" information that would tell you what the park name, path name, or building name is in a particular region. Would be wonderful to give some more detailed context in the visualization.
+There are many improvements that could be made.
+
+First, hosting on a faster platform than the free version of Render would improve usability.
+
+Second, the plotly map could be made more interesting by introducing "hover" information that would tell you what the park name, path name, or building name is in a particular region. Would be wonderful to give some more detailed context in the visualization.
 
