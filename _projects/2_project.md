@@ -25,7 +25,7 @@ First, I had a series of geometries from MN Geospatial Commons representing park
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-4">
+    <div class="col-3">
         {% include figure.html path="assets/img/example_buffers.png" title="example buffers" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -38,7 +38,7 @@ Next we can visualize all these geometries as one on the Twin Cities area. Great
 
 
 <div class="row justify-content-sm-center">
-    <div class="col-4">
+    <div class="col-2">
         {% include figure.html path="assets/img/all_geometries_tc.png" title="All geometries in Twin Cities" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -50,7 +50,7 @@ Next we can visualize all these geometries as one on the Twin Cities area. Great
 A solution : (1) Combine overlapping buffers of the same type (i.e. same type of path connected to one another). (2) Create an interactive Dash application to pick and choose important features.
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col">
         {% include figure.html path="assets/img/dashboard_preview.png" title="Dashboard" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
