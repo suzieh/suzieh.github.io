@@ -4,7 +4,7 @@ title: project 1
 description: a project with a background image
 img: assets/img/hoops_lmdist_2023.gif
 importance: 1
-category:
+category: Seen on GitHub
 ---
 
 Every project has a beautiful feature showcase page.
