@@ -25,7 +25,7 @@ I found that the arch and horseshoe appear when a *gradient* of some sort is bei
 Consider for example this soil dataset, where each dot represents a soil sample taken at a different pH level. The arch is clearly evident, making samples at the ends of the pH gradient appear closer together in the plot, rather than a linear relationship we would expect!
 
 <div class="row justify-content-sm-center">
-    <div class="col-3">
+    <div class="col-6">
         {% include figure.html path="assets/img/hoops_lmdist_2023_before.png" title="Soil PCoA before correction" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
