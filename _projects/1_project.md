@@ -15,11 +15,12 @@ This work has been published with *Bioinformatics*. Read the <a href="https://do
 ___
 
 
-## Local Manifold Distance (LMdist) for Dimensionality Reduction
+## LMdist for Dimensionality Reduction
 
 
-Here we give a brief introduction to LMdist, an algorithm for adjusting pairwise distances in dimensionality reduction in order to remove the "arch effect."
+Here we give a brief introduction to Local Manifold Distance (LMdist), an algorithm for adjusting pairwise distances in dimensionality reduction in order to remove the "arch effect."
 
+<p>&nbsp;</p>
 
 #### The problem: Arch/Horseshoe Effect
 
@@ -67,7 +68,7 @@ We can **use graph theory and machine learning** to **adjust distances according
 
 <p>&nbsp;</p>
 
-#### The solution: LMdist
+#### The solution: LMdist recovers gradients
 
 Through verification with a series of simulated datasets, **LMdist-adjusted distances more accuarately represent real distances**, removing the bounded effect of typical dimensionality reduction approaches.
 
@@ -88,4 +89,4 @@ Applying the LMdist algorithm, we can **resolve the pH gradient along the x-axis
 </div>
 
 
-APA citation: Hoops, S. L., & Knights, D. (2023). LMdist: Local Manifold distance accurately measures beta diversity in ecological gradients. Bioinformatics, 39(12), btad727.
+APA citation: **Hoops, Susan L.**, & Knights, Dan (2023). LMdist: Local Manifold distance accurately measures beta diversity in ecological gradients. Bioinformatics, 39(12), btad727.

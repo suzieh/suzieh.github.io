@@ -8,7 +8,7 @@ category: Seen on GitHub
 github: https://github.com/suzieh/myWalkableCity
 ---
 
-In this personal passion project, I use publicly-available spatial data on bike paths, public buildings, and parks (obtained from the <a href="https://gisdata.mn.gov/">MN Geospatial Commons</a>) to explore walkable, bikeable locations in the Greater Twin Cities!
+In this personal passion project, I use **publicly-available spatial data** on bike paths, public buildings, and parks (obtained from the <a href="https://gisdata.mn.gov/">MN Geospatial Commons</a>) to explore walkable, bikeable locations in the Greater Twin Cities!
 
 
 The idea for this project was born from house-hunting in the Twin Cities. While considering locations, I wanted to know where I would have easy access to bike paths, parks, groceries, and medical facilities. The concept of the "15-minute city" is a popular discussion on city planning; attempting to plan such that all people live "15-minutes" walking or biking to their basic necessities.
@@ -23,7 +23,9 @@ ___
 ## myWalkableCity
 
 
-First, I had a series of geometries from MN Geospatial Commons representing parks and buildings (bolded colors below). I wanted to create "buffers" which represent the walkable distance from these paths, parks, and buildings (lighter colored areas).
+#### Spatial Data & Buffers
+
+First, I had a series of **geometries from MN Geospatial Commons representing parks and buildings** (bolded colors below). I wanted to create "buffers" which represent the walkable distance from these paths, parks, and buildings (lighter colored areas).
 
 <p>&nbsp;</p>
 
@@ -33,12 +35,14 @@ First, I had a series of geometries from MN Geospatial Commons representing park
     </div>
 </div>
 <div class="caption">
-    Buffers for Mill City Ruins Park, Guthrie Theater, West River Road Path, and Stone Arch Bridge. Buffers for paths (West River Road and Stone Arch) are 800 meters in radius, so extend 800 meters from the path. Buffers for buildings (Guthrie Theater) and parks (Mill City Ruins) are 1000 meters in radius, extending 1000 meters from the outer most edges of these parks and buildings. 
+    Buffers for Mill City Ruins Park, Guthrie Theater, West River Road Path, and Stone Arch Bridge. Buffers for paths (West River Road and Stone Arch) are 800 meters in radius, extending 800 meters from the path. Buffers for buildings (Guthrie Theater) and parks (Mill City Ruins) are 1000 meters in radius, extending 1000 meters from the outermost edges of these parks and buildings. 
 </div>
 
 <p>&nbsp;</p>
 
-Next we can visualize all these geometries as one on the Twin Cities area. Great! But... this is a bit overwhelming and not very interactive! Also, the plot can be slow to render with so many overlapping geometries.
+#### Overlapping Buffers & Geometries
+
+Next we can **visualize all these geometries in Twin Cities area**. Great! But... this is a bit overwhelming and not very interactive! Also, the plot can be slow to render with so many overlapping geometries.
 
 <p>&nbsp;</p>
 
@@ -53,9 +57,11 @@ Next we can visualize all these geometries as one on the Twin Cities area. Great
 
 <p>&nbsp;</p>
 
-A solution : (1) Combine overlapping buffers of the same type (i.e. same type of path connected to one another). (2) Create an interactive Dash application to pick and choose important features.
+A solution to our time & interactivity problem : (1) **Combine overlapping buffers** of the same type (i.e. same type of path connected to one another). (2) Create **an interactive Dash application** to pick and choose important features.
 
 <p>&nbsp;</p>
+
+#### Building an Interactive Dash
 
 <div class="row justify-content-sm-center">
     <div class="col">
@@ -69,8 +75,9 @@ A solution : (1) Combine overlapping buffers of the same type (i.e. same type of
 <p>&nbsp;</p>
 
 
-And, ta-da! We have made **an interactive tool for finding "walkable cities."**
+**And, ta-da! We have made an interactive tool for finding "walkable cities."**
 
+<p>&nbsp;</p>
 
 ___
 
