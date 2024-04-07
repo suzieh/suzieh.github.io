@@ -25,6 +25,7 @@ ___
 
 First, I had a series of geometries from MN Geospatial Commons representing parks and buildings (bolded colors below). I wanted to create "buffers" which represent the walkable distance from these paths, parks, and buildings (lighter colored areas).
 
+<p>&nbsp;</p>
 
 <div class="row justify-content-sm-center">
     <div class="col-7">
@@ -35,9 +36,11 @@ First, I had a series of geometries from MN Geospatial Commons representing park
     Buffers for Mill City Ruins Park, Guthrie Theater, West River Road Path, and Stone Arch Bridge. Buffers for paths (West River Road and Stone Arch) are 800 meters in radius, so extend 800 meters from the path. Buffers for buildings (Guthrie Theater) and parks (Mill City Ruins) are 1000 meters in radius, extending 1000 meters from the outer most edges of these parks and buildings. 
 </div>
 
+<p>&nbsp;</p>
 
 Next we can visualize all these geometries as one on the Twin Cities area. Great! But... this is a bit overwhelming and not very interactive! Also, the plot can be slow to render with so many overlapping geometries.
 
+<p>&nbsp;</p>
 
 <div class="row justify-content-sm-center">
     <div class="col-6">
@@ -48,9 +51,11 @@ Next we can visualize all these geometries as one on the Twin Cities area. Great
     All buffers in the Twin Cities.
 </div>
 
+<p>&nbsp;</p>
 
 A solution : (1) Combine overlapping buffers of the same type (i.e. same type of path connected to one another). (2) Create an interactive Dash application to pick and choose important features.
 
+<p>&nbsp;</p>
 
 <div class="row justify-content-sm-center">
     <div class="col">
@@ -61,17 +66,19 @@ A solution : (1) Combine overlapping buffers of the same type (i.e. same type of
     Buffers for Mill City Ruins Park, Guthrie Theater, West River Road Path, and Stone Arch Bridge. Buffers for paths (West River Road and Stone Arch) are 800 meters in radius, so extend 800 meters from the path. Buffers for buildings (Guthrie Theater) and parks (Mill City Ruins) are 1000 meters in radius, extending 1000 meters from the outer most edges of these parks and buildings. 
 </div>
 
+<p>&nbsp;</p>
 
-And, ta-da! We have an interactive tool for finding "walkable cities."
+
+And, ta-da! We have made **an interactive tool for finding "walkable cities."**
 
 
 ___
 
 
-## Future Directions
+### Future Directions
 
 
-There are many improvements that could be made.
+There are many improvements that could be made to this tool for further exploration.
 
 
 First, hosting on a faster platform than the free version of Render would improve usability.
