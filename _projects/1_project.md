@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Local Manifold Distance
-description: (R) Removing the arch effect in dimensionality reduction.
+description: (R) Removing the arch/horseshoe effect in dimensionality reduction methods.
 img: assets/img/hoops_lmdist_2023.gif
 importance: 1
 category: Seen on GitHub

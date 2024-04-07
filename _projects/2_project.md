@@ -1,7 +1,7 @@
 ---
 layout: page
 title: my Walkable City
-description: (Python) Passion project for finding walkable cities in urban MN.
+description: (Python) Passion project using spatial data to visualize walkability in the Twin Cities, MN.
 img: assets/img/walkableCity.png
 importance: 2
 category: Seen on GitHub
