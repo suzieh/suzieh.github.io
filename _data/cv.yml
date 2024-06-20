@@ -8,7 +8,7 @@
     - name: Programming
       value: Python, R, SQL, C++, MATLAB, LaTeX, D3.js, HTML/CSS
     - name: Data Handling
-      value: AWS storage (S3), AWS computing (EC2), Relational databases (RedCAP), HPC cluster computing
+      value: AWS storage (S3), AWS computing (EC2), Relational databases (RedCAP), HPC clusters, cloud computing
     - name: Data Analysis
       value: Hypothesis testing, Machine Learning, Bayesian statistics, Deep Learning (PyTorch, TensorFlow)
 
@@ -35,31 +35,35 @@
       institution: Knights Lab, University of Minnesota - Twin Cities
       year: 2020 - Present
       description:
-        - Leading microbiome analysis for 7 human and animal microbiome studies.
-        - Novel diagnosis and correction method for the "horseshoe" effect in dimensionality reduction.
-        - Software pipeline for tracking engraftment in WGS studies.
+        - Directed metagenomic analysis (Python, R) and data management (SQL) for clinical studies totaling 6,000+ samples.
+        - Created a machine learning pipeline with 12% improved performance tracking bacteria in microbial transfer therapy.
+        - Diagnosed dimensionality reduction anomalies in multivariate datasets, improving model accuracy by 28%.
+        - Advised 7 researchers and assisted in teaching courses covering machine learning, genomics, and Python.
+
 
     - title: Data Scientist / Researcher 2
       institution: Knights Lab, University of Minnesota - Twin Cities
       year: 2018 - 2020
       description:
-        - Coordinated preparation of 6,000 infant gut samples (M.A.G.I.C. study).
-        - Used R and Python conducting analysis/visualization for various projects.
+        - Developed statistical workflows in R and Python for disseminating gut microbiome findings in longitudinal studies.
+        - Collaborating with interdisciplinary teams of physicians, clinical researchers, community members, and scientists.
+        - Selected presenter at a Stanford University conference, introducing my work in dimensionality reduction approaches.
 
-    - title: Fulbright Student
-      institution: Johannes Kepler Universität, Linz, Austria
+    - title: Fulbrighter
+      institution: Fulbright Program, Austria
       year: 2017-2018
       description:
-        - Data visualization research with Professor Marc Streit, PhD.
-        - Taught English in a secondary school.
-        - Completed coursework for the Technical Mathematics M.S. degree.
+        - Visualized GitHub version control system as a graph in Python and D3.js to represent computational optimization.
+        - Taught English in a local secondary school and completed courses for the Technical Mathematics M.S. at JKU Linz.
+
 
     - title: Data Science Intern
       institution: CoreBiome (now Diversigen)
       year: 2017
       description:
-        - Microbiome analysis on AWS EC2 computing cloud with S3 storage.
-        - Web design for the original CoreBiome website.
+        - Automated custom microbiome analysis software on AWS using EC2 cloud computing and S3 storage.
+        - Constructed the company website using Wix, developed interactive visualizations for clients in Python and D3.js.
+
 
 - title: Volunteer Positions
   type: time_table
